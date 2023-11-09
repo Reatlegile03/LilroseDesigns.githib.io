@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Uncommon Designs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/84ccfd782c.js" crossorigin="anonymous"></script>
+               <link rel="stylesheet" href="CSS/Gallery_Styling.css">
+
+      <style>
+            body {
+            background-color: whitesmoke;    
+            background-repeat: no-repeat;
+            background-size: cover;
+           </style>
+        
+    
+    
+    </head>
+    <table cellspacing="5px" style="width: 1352px; height: 80px; background-color: whitesmoke">
+            <tr style="float: left">
+                <td width="850"><img src="images/Logo.jpg" alt="uncommon designs" height="80" width="150" style="float: left"></td><!-- comment -->
+                <td width="80"><a href="HomePage.html">HOME</a></td><!-- comment -->
+                  <td width="120"><a href="AboutUs.html">ABOUT US</a></td><!-- comment -->
+                    <td width="140"><a href="OurWork.html">OUR WORK</a></td><!-- comment -->
+                  <td width="100"><a href="Gallery.html">GALLERY</a></td><!-- comment -->
+                    <td width="150"><a href="ContactUs.html">CONTACT US</a></td><!-- comment -->
+                     <td width="150"><a href="InvolveUs.html">INVOLVE US</a></td><!-- comment -->
+            
+            
+            </tr>   
+            
+            
+        </table>
+     
+
+    <div class="about">
+        <h1 style="font-family: monospace; text-align: center;">Our Image Gallery....</h1><!-- comment -->
+    </div>
+    
+    <div class="full-img" id="fullImgBox">
+        <img src="images/image 1.jpg" alt="" id="fullImg"> 
+        <span onclick="closefullImg()">X</span>
+    </div>
+    
+ 
+    
+    
+    <div class="Gallery img">
+        <img src="images/image 1.jpg" alt="" onclick="openfullImg(this.src)">
+        <img src="images/image 2.jpg" alt="" onclick="openfullImg(this.src)">   
+      <img src="images/image 3.jpg" alt="" onclick="openfullImg(this.src)"> 
+      <img src="images/image 4.jpg"   alt="" onclick="openfullImg(this.src)">     
+      <img src="images/image 5.jpg" alt="" onclick="openfullImg(this.src)">
+      <img src="images/image 6.jpg" alt="" onclick="openfullImg(this.src)">
+      <img src="images/image 7.jpg" alt="" onclick="openfullImg(this.src)">
+      <img src="images/image 8.jpg"   alt="" onclick="openfullImg(this.src)">    
+      <img src="images/image 9.jpg" alt="" onclick="openfullImg(this.src)">
+      <img src="images/image 10.jpg"  alt="" onclick="openfullImg(this.src)">  
+      <img src="images/image 11.jpg" alt="" onclick="openfullImg(this.src)">
+      <img src="images/image 12.jpg"  alt="" onclick="openfullImg(this.src)">     
+      <img src="images/image 13.jpg" alt="" onclick="openfullImg(this.src)">
+      <img src="images/image 14.jpg"  alt="" onclick="openfullImg(this.src)" > 
+      <img src="images/image 15.jpg"  alt="" onclick="openfullImg(this.src)">
+      <img src="images/image 16.jpg"   alt="" onclick="openfullImg(this.src)">     
+      <img src="images/image 17.jpg" alt="" onclick="openfullImg(this.src)">
+      <img src="images/image 18.jpg" alt="" onclick="openfullImg(this.src)">
+      <img src="images/image 19.jpg"   alt="" onclick="openfullImg(this.src)"> 
+      <img src="images/image 20.jpg"  alt="" onclick="openfullImg(this.src)">     
+      <img src="images/image 21.jpg"   alt="" onclick="openfullImg(this.src)">    
+        <img src="images/image 22.jpg"  alt="" onclick="openfullImg(this.src)">
+      <img src="images/image 23.jpg"    alt="" onclick="openfullImg(this.src)">  
+      <img src="images/image 24.jpg"   alt="" onclick="openfullImg(this.src)">   
+          
+    </div>        
+   
+    
+   <div class="footer">
+        <p align="center" style="margin: 20px auto;font-weight: 100;line-height: 100px;color: white;margin-top: 150px"><u>Contact us On:</u></p>
+     <div style="float: bottom">
+                <table align="center" cellspacing="3">
+                    <tr>
+                        <td align="center" width="100" style="color: white"><i class="fa-brands fa-facebook"></i></td>
+                        <td align="center" width="100" style="color: white"><i class="fa-brands fa-twitter"></i></td>
+                        <td align="center" width="100" style="color: white"><i class="fa-brands fa-youtube"></i></td>
+                        <td align="center" width="100" style="color: white"><i class="fa-brands fa-instagram"></i></td>
+                    </tr>
+                </table>
+          
+         <p style="text-align: center; font-family: monospace;color: white">
+          072 347 1410 | lilroselizzy@gmail.com   
+         </p>
+         
+     </div> 
+     </div>
+      
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+        
+        function openfullImg(pic){
+         fullImgBox.style.display = "flex" ; 
+         fullImg.src = pic;
+        }
+         
+         function closefullImg(){
+            fullImgBox.style.display = "none" ;    
+         }
+        
+    </script> 
+    
+    
+    
+    </body>
+</html>
+ 
